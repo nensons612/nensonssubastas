@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 
-const API_URL = 'https://api-j2254pyida-uc.a.run.app';
+const API_URL = 'http://127.0.0.1:5001/nensonssubastas-35510/us-central1/api/create-auction';
 
 export default function App() {
   const [formData, setFormData] = useState({
