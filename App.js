@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 
-const API_URL = 'https://2a8d-2806-1016-f-5b69-ed8a-fbac-99be-d3e8.ngrok-free.app';
+const API_URL = 'https://api-j2254pyida-uc.a.run.app';
 
 export default function App() {
   const [formData, setFormData] = useState({
