@@ -6,7 +6,7 @@ export default function AuctionForm() {
   const [formData, setFormData] = useState({
     vendedor: '',
     precioInicial: '',
-    montoMinimo: '5 Pesos',
+    montoMinimo: '',
     titulo: '',
   });
 
