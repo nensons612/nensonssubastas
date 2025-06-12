@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://127.0.0.1:5001/nensonssubastas-35510/us-central1/api/create-auction';
+const API_URL = 'https://us-central1-nensonssubastas-35510.cloudfunctions.net/api/create-auction';
 
 export default function AuctionForm() {
   const [formData, setFormData] = useState({
